@@ -1,8 +1,8 @@
 const products = [
-  { id: 1, name: "Backpack", price: 29.99, img: "images/backpack.jpg" },
-  { id: 2, name: "Bike Light", price: 9.99, img: "images/bike-light.jpg" },
-  { id: 3, name: "T-Shirt", price: 15.99, img: "images/tshirt.jpg" },
-  { id: 4, name: "Sneakers", price: 49.99, img: "images/sneakers.jpg" },
+  { id: 1, name: "Backpack", price: 29.99, img: "backpack.jpg" },
+  { id: 2, name: "Bike Light", price: 9.99, img: "bike-light.jpg" },
+  { id: 3, name: "T-Shirt", price: 15.99, img: "tshirt.jpg" },
+  { id: 4, name: "Sneakers", price: 49.99, img: "sneakers.jpg" },
 ];
 
 const listContainer = document.getElementById("productList");
@@ -46,3 +46,4 @@ document.getElementById("logoutBtn").onclick = () => {
 };
 
 renderProducts();
+
